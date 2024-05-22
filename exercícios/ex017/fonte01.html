@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fontes em CSS</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+        body {
+            font-family: 'work Sans', Arial, Helvetica, sans-serif ;
+            /*
+            Medidas Absolutas:
+            cm, mm, in, px, pt, pc
+            
+            Medidas Relativas
+            em, ex, rem, vw, vh, %
+
+            16px geralmente = 1em
+            */
+
+            font-size: 16px;
+            font-weight: 500;
+            /* lighter, normal, bold, bolder */
+            font-style: oblique;
+            text-decoration: underline;
+        }
+
+        h1{
+            font: italic bolder 3em 'work Sans', 'sans serif';
+            /* shorthand font
+            
+            - font-style -> font-weight -> font-size -> font-family */
+            
+        }
+
+        h2 {
+            font: bold 2em 'work Sans', 'sans serif'
+        }
+    </style>
+</head>
+<body>
+    <h1>Trabalhando com Fontes</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime, rerum a quibusdam sit fugiat, neque ipsam odio ullam quas exercitationem vero quasi animi! Veniam earum sit nemo aspernatur nisi illum?</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis minus, esse quisquam adipisci voluptatibus veritatis, aperiam fuga ea possimus non quasi voluptate expedita. Qui reiciendis expedita optio sed eveniet fugiat.
+    Delectus eum quisquam qui ipsum veritatis minus odit esse. Ullam quia necessitatibus iste non dicta voluptatem provident, ex cumque aspernatur, distinctio recusandae ut minus. Consequuntur quibusdam nemo consectetur aliquam quia.</p>
+
+    <h2>Subtítulo do Exercício</h2>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa rem dolorum ipsum similique nulla explicabo tempora pariatur ea nostrum corrupti, veritatis reiciendis aperiam, aut quam fuga voluptates, neque odit placeat?</p>
+</body>
+</html>
