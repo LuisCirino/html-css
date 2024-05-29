@@ -22,6 +22,7 @@
         table {
             width: 500px;
             border-collapse: collapse;
+            position: relative;
         }
 
         td, th {
@@ -33,6 +34,25 @@
             background-image: linear-gradient(to right, rgb(105, 105, 105), gray);
             color: white;
         }
+
+        thead > tr > th {
+            position: sticky;
+            top: 0;
+        }
+
+        tbody > tr:nth-child(2n) {
+            background-color: lightgray;
+        }
+
+        tbody > tr:nth-child(odd) { /* 2n-1 */
+            background-color: white;
+        }
+
+        
+        tbody > tr:nth-child(even) { /* 2n */
+            background-color: lightgray;
+        }
+
         td:nth-child(2) {
             text-align: right;
         }
@@ -42,6 +62,7 @@
             font-weight: bold;
             padding: 10px;
             background-color: gray;
+            color:white
         }
     </style>
 </head>
@@ -180,5 +201,6 @@
             </tr>
         </tfoot>
     </table>
+    
 </body>
 </html>
