@@ -5,7 +5,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Formulário</title>
     <script>
-        var year = new Date().getFullYear()
+        function calcIdade() {
+            let atual = new Date().getFullYear()
+            iidade.innerHTML = Number(atual) - Number(iano.value)
+        }
     </script>
 </head>
 <body>
@@ -14,7 +17,7 @@
 
         <p>
             <label for="iano">Em que ano você nasceu?</label>
-            <input type="number" name="ano" id="iano" min="1900" max="2024" oninput="iidade.innerHTML = year - Number(iano.value)">
+            <input type="number" name="ano" id="iano" min="1900" max="2024" oninput="calcIdade()">
         </p>
 
         <p>
@@ -29,4 +32,4 @@
 
     </form>
 </body>
-</html>
+</html> 
