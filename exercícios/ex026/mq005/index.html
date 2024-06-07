@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Media Query</title>
+
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+    rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Meu Site</h1>
+        <span id="burger" class="material-icons" onclick="clickMenu()">menu</span>
+        <menu id="itens">
+            <ul>
+                <li><a href="#">Opção 1</a></li>
+                <li><a href="#">Opção 2</a></li>
+                <li><a href="#">Opção 3</a></li>
+                <li><a href="#">Opção 4</a></li>
+                <li><a href="#">Opção 5</a></li>
+            </ul>
+        </menu>
+    </header>
+
+    <main>
+        <article>
+            <h2>Testando Media Queries</h2>
+            <p><span>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Natus reprehenderit repudiandae quia libero eveniet dignissimos reiciendis non saepe voluptates amet obcaecati veniam porro iusto, consectetur iste neque, ex, tempora et.</span><span>Beatae, odit tempora debitis, saepe ipsam eius, nostrum veniam dolores assumenda delectus accusantium rerum nulla. Quod officia deserunt, vitae nobis voluptatem exercitationem aspernatur culpa velit natus. Repellendus fuga quas alias!</span><span>Qui cumque ea nobis culpa. Incidunt, nihil nesciunt eius, amet adipisci id nemo aperiam quidem nobis minus veniam quis, delectus dicta fugiat. Quia nesciunt repudiandae incidunt suscipit qui temporibus corporis?</span><span>Laudantium ea cumque, ut eveniet odio sint voluptatibus, est ab amet illo reprehenderit quidem. Nisi ad quod sequi optio obcaecati. Dolores sequi ad autem corrupti aut eum nisi adipisci officia!</span><span>Magnam inventore eum esse consectetur provident quia deleniti. Pariatur cum ducimus, veniam delectus quos, quisquam eum natus minus fugiat nam blanditiis atque sit assumenda beatae enim suscipit, eius perferendis. Quibusdam.</span></p>
+            <p><span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus dolorem voluptates ad, debitis sequi aspernatur, error sed iste cumque officia quasi dolores numquam dignissimos distinctio veniam earum quis? Illum, repellat.</span><span>Optio earum aut harum nostrum pariatur voluptate voluptatum maiores, odit sunt asperiores voluptatem cupiditate hic consectetur ex dignissimos et adipisci non. Recusandae quia architecto harum sed ipsum odit minima deleniti?</span><span>Minus qui fuga inventore corporis mollitia optio ratione assumenda numquam. Dicta nemo aut eveniet necessitatibus, sapiente tempore autem! Repudiandae nam, impedit dignissimos dicta illum veniam incidunt illo corrupti possimus reprehenderit?</span><span>Provident nesciunt eveniet, eum at expedita eligendi! Aspernatur inventore nostrum sit hic enim amet et facilis assumenda, aliquam necessitatibus provident accusamus ipsa distinctio commodi voluptate similique neque fugit quod laboriosam.</span><span>Facilis magni quasi placeat, culpa vel saepe sunt deserunt sapiente quaerat nobis necessitatibus quas voluptas eum. Soluta accusantium est quo voluptatum aut placeat similique fuga cum blanditiis repudiandae, sapiente possimus!</span></p>
+            <p><span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse, nihil illo? Ratione, amet nesciunt, ipsam soluta minus culpa repellat rem deserunt provident a magnam neque, sunt aliquam numquam assumenda error!</span><span>Voluptate, asperiores. Nobis dolorum tempore aspernatur hic architecto. Delectus reprehenderit recusandae numquam, sapiente quidem voluptatum neque quod dicta quo eligendi doloribus provident, similique officia tempora laboriosam deleniti ducimus facilis cum.</span><span>Aut officia reprehenderit atque in explicabo ipsa mollitia error cumque, sint natus distinctio, dolore eum. Itaque nulla voluptate repudiandae vero, labore hic reiciendis a ut, optio nisi cum odit quae.</span><span>Error repellendus nobis incidunt sed veritatis minus optio consectetur? Ullam quas consequatur perspiciatis eos repellendus, ratione veniam animi, illo esse maxime unde, magnam laborum quae fugiat et. Quod, asperiores suscipit!</span><span>Voluptate voluptas, fugit pariatur repellat fuga officiis nisi quas obcaecati ut quasi numquam? Nobis, explicabo! Pariatur magnam, praesentium necessitatibus perspiciatis reiciendis maxime laboriosam tempore quasi, veniam eveniet unde a. Cupiditate!</span></p>
+        </article>
+    </main>
+
+    <script>
+        function clickMenu() {
+           if (itens.style.display == 'block') {
+                itens.style.display = 'none'
+           } else {
+            itens.style.display = 'block'
+           } 
+        }
+    </script>
+</body>
+</html>
